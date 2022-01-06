@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "st-dev": "modemon -e ts,json,mustache src/server.ts"
+    "st-dev": "nodemon -e ts,json,mustache src/server.ts"
   },
   "repository": {
     "type": "git",
