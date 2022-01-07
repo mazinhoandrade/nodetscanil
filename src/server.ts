@@ -29,7 +29,7 @@ server.use('/', mainRoutes);
 
 //routa de erro 404
 server.use((req, res)=>{
-    res.send('pagina nao encotrada');
+    res.render('pages/404')
 });
 
 // definindo nosso servidor 
